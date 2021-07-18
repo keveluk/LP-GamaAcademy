@@ -8,3 +8,11 @@
         } 
     });  
   });
+
+function myFunction(){
+    let name= $('.name-input').val();
+    let email= $('.email-input').val();
+    window.localStorage.setItem('Name',name)
+    window.localStorage.setItem('Email',email)
+    alert("Nome: "+window.localStorage.getItem('Name')+'\n'+'Email: '+window.localStorage.getItem('Email'))
+}
