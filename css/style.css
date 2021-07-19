@@ -119,7 +119,7 @@ section {
 
   /* border: 2px solid green; */
   background: radial-gradient(transparent, black),
-    url("../assets/images/bg2.jpg");
+    url("../assets/images/bg2.webp");
 }
 
 .best-offer {
