@@ -692,11 +692,19 @@ header {
     display: block;
   }
 
+  .hero {
+    margin-top: 50px;
+    /* margin-bottom: 150px; */
+  }
   .hero-img img {
     display: flex;
     justify-content: center;
     align-items: center;
     width: auto;
+  }
+
+  .arrows {
+    margin-top: 50px;
   }
 
   .hero-img {
@@ -709,7 +717,7 @@ header {
   }
 
   #section-one {
-    height: 150vh;
+    height: auto;
   }
 
   .polygon {
@@ -813,13 +821,16 @@ header {
 
 @media only screen and (max-device-width: 450px) {
   #section-one {
-    padding-top: 50px;
-    height: 180vh;
-    width: 100%;
+    height: auto;
   }
   .hero {
     height: auto;
+    margin-top: 50px;
   }
+  .arrows {
+    margin-top: 50px;
+  }
+
   .checkbtn {
     margin-top: 10px;
     font-size: 30px;
@@ -922,9 +933,6 @@ header {
   }
   .polygon {
     height: 160px;
-  }
-  #section-one {
-    height: 120vh;
   }
   .hero-text {
     min-width: 35%;
