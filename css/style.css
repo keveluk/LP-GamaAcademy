@@ -697,10 +697,8 @@ header {
     /* margin-bottom: 150px; */
   }
   .hero-img img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
+    width: 100%;
+    height: auto;
   }
 
   .arrows {
@@ -949,10 +947,10 @@ header {
     height: auto;
   }
   .hero-img img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 45vh;
+    width: 100%;
+    height: auto;
+  }
+  #autoWidth {
+    height: 70vh !important;
   }
 }
